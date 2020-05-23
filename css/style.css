@@ -21,6 +21,7 @@ body {
 	display: none;
 	z-index: 3;
 	text-align: center;
+	background-color: black;
 }
 .item-menumobile ul {
 	list-style: none;
@@ -1698,5 +1699,8 @@ body {
 	}
 	.total-withdraw {
 		margin-left: 161px;
+	}
+	.rules-deposity {
+		height: 730px;
 	}
 }
