@@ -81,9 +81,12 @@
 		<p><strong>REMEMBER:</strong> below you are just requesting a deposit from the<br>administrator, to actually deposit so that he knows, send the donor to this account:</p>
 		<br>
 		<r>1qwWbkkL9m4Dok8PDxPVVAYMP2boPeWhQ</r><br><br>
+		<img src="images/email.png">
+		<h2>COMPROVE THE DEPOSITY !!</h2>
+		<p><strong>REMEMBER:</strong> after making the deposit, take a print or photo proving the<br> deposit, and send by this email the amount that was deposited and your full name. Otherwise,<br>we will not know whether the deposit was actually made.</p><br>
 		<img src="images/bitcoin.png">
 		<h2>BITCOIN ONLY !!!</h2>
-		<p><strong>REMEMBER:</strong> the money you put in the account below, must be placed in the form on<br>this page too, if you put a different money in the form below and deposit another one in the<br>account above, this request will be canceled and the money deposited manually by the<br>administrator. But still try to put the same money here and when depositing.</p>
+		<p><strong>REMEMBER:</strong> Payments only in bitcoin, we do not accept any other form of<br> deposit other than this. Also remember that after depositing the money in the account we said,<br> insert in this form below the same amount that you deposited, so that when we confirm the<br>deposit, your money on the platform will be inserted successfully as well.</p>
 		<br>
 		<r>Good Luck !</r>
 	</div>
@@ -101,7 +104,7 @@
 			<h2>REQUEST NOW</h2>
 			<p>Don't use dots '.' or commas ',' to separate the money, instead of 20,000 type 20000 ! And use dots '.' to separate the decimal places: 20000.05</p>
 			<form method="POST">
-				<input type="text" name="val" placeholder="Money"><br><br>
+				<input type="text" name="val" placeholder="Money what you deposited"><br><br>
 
 				<?php if($newuser['agency'] == NULL) {echo "<p>Fill in your bank branch name and account number on the main panel !</p>";} else {echo "<button type='submit'>REQUEST</button>";} ?>
 			</form>

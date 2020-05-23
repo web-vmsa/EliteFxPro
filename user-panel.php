@@ -11,6 +11,12 @@
 	<title>EliteFxPro - A Safe Place For Investment</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
+	<meta name="title" content="EliteFxPro - A Safe Place For Investment">
+	<meta name="description" content="In our environment, you have access to updated market data, and you can invest in us to invest for you. Make your money pay.">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	
 	<!-- Style -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
