@@ -1891,4 +1891,7 @@ body {
 	.new-users {
 		height: 570px;
 	}
+	.rules-deposity r {
+		font-size: 19px;
+	}
 }
