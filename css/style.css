@@ -1874,4 +1874,18 @@ body {
 	.history-all h4 {
 		font-size: 25px;
 	}
+	.rules-deposity {
+		height: 1357px;
+	}
+	.solicit-withdraw {
+		height: 1035px;
+	}
+	.left-solicit {
+		float: none;
+		width: 100%;
+	}
+	.right-solicit {
+		float: none;
+		width: 100%;
+	}
 }
