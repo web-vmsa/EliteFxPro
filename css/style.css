@@ -1788,4 +1788,27 @@ body {
 		width: 75%;
 		float: none;
 	}
+	.text-login {
+		width: 375px;
+		left: 0;
+		height: 178px;
+		top: 166px;
+	}
+	.text-login h1 {
+		letter-spacing: 7px;
+	}
+	.text-login-description {
+		width: 361px;
+		left: 15px;
+	}
+	.text-login-button {
+		width: 375px;
+		left: 0;
+		top: 517px;
+	}
+	.form-login {
+		width: 343px;
+		top: 635px;
+		left: 15px;
+	}
 }
