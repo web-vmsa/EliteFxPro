@@ -133,11 +133,26 @@
 					if (isset($_POST['quantity']) && !empty($_POST['quantity'])) {
 						$id_do_usuario = $dadosnovos['id_user'];
 						$dinheiro_atual = $dadosnovos['has'];
+						$emailuser = $dadosnovos['email'];
 						$dinheiro_profitado = addslashes($_POST['quantity']);
 						$dinheiro_profitado_insert = $dinheiro_atual+$dinheiro_profitado;
 
 						$novoprofit = new Adm();
 						$novoprofit->InsertProfit($id_do_usuario, $dinheiro_profitado_insert);
+
+						$from = "testing @ yourdomain";
+
+						$to = $emailuser;
+
+						$subject = "(EliteFxPro) You made a profit ".$dinheiro_profitado;
+
+						$message = "Enter our website now and see your current profit on the panel!";
+
+						$headers = "From:". $from;
+
+						mail($to, $subject, $message, $headers);
+
+						
 					}
 				?>
 			</tr>

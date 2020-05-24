@@ -31,6 +31,22 @@
 			$sql = "UPDATE balance SET has = '$dinheiro_somado', deposity = '$deposity_somado' WHERE id_user = '$id_user'";
 			$sql = $pdo->query($sql);
 
+			$sql = "SELECT * FROM users WHERE id = '$id_user'";
+			$sql = $pdo->query($sql);
+			if ($sql->rowCount() > 0) {
+				$from = "testing @ yourdomain";
+
+				$to = $emailuser;
+
+				$subject = "(EliteFxPro) Your deposit has been accepted";
+
+				$message = "Your money deposit has been accepted, enter the panel now and see your current money.";
+
+				$headers = "From:". $from;
+
+				mail($to, $subject, $message, $headers);
+			}
+
 			header("Location: verify-requests?accept=true");
 		}
 	}

@@ -1841,4 +1841,37 @@ body {
 		float: none;
 		text-align: center;
 	}
+	.welcome-panel {
+		height: 556px;
+	}
+	.title-description {
+		height: 229px;
+	}
+	.data-user input {
+		padding-left: 0;
+		width: 357px;
+	}
+	.data-user button {
+		width: 361px;
+	}
+	.money-cripto img {
+		width: 245px;
+		height: 245px;
+	}
+	.left-money-withdraw {
+		margin-left: 38px;
+	}
+	.right-money-deposity {
+		margin-left: 38px;
+	}
+	.total-withdraw {
+		margin-left: 3px;
+		width: 47%;
+	}
+	.total-deposity {
+		width: 47%;
+	}
+	.history-all h4 {
+		font-size: 25px;
+	}
 }

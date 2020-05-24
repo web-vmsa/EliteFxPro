@@ -14,11 +14,11 @@
 
 	$to = $email;
 
-	$subject = "Conta Aceita! (EliteFxPro)";
+	$subject = "Account accepted (EliteFxPro)";
 
-	$message = "Olá, sua conta foi verificada pelo administrador, e você pode fazer login no Painel da EliteFxPro! Obrigado por usar nossos serviços.";
+	$message = "Hello, your account has been accepted by the administrator, login now to our EliteFxPro.com website and access the panel to earn a lot of money!";
 
-	$headers = "De:". $from;
+	$headers = "From:". $from;
 
 	mail($to, $subject, $message, $headers);
 
