@@ -82,7 +82,7 @@
 	<div class="rules-deposity background-lightgrey">
 		<div class="img-rules"><img src="images/warning.png"></div>
 		<h2>READ THE RULES !!!</h2>
-		<p><strong>REMEMBER:</strong> below you are just requesting a deposit from the<br>administrator, to actually deposit so that he knows, send the donor to this account:</p>
+		<p><strong>REMEMBER:</strong> below you are just requesting a deposit from the<br>administrator, to actually deposit so that he knows, send the donor to this account in blockchain:</p>
 		<br>
 		<r>1qwWbkkL9m4Dok8PDxPVVAYMP2boPeWhQ</r><br><br>
 		<img src="images/email.png">
