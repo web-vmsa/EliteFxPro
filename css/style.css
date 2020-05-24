@@ -1888,4 +1888,7 @@ body {
 		float: none;
 		width: 100%;
 	}
+	.new-users {
+		height: 570px;
+	}
 }
