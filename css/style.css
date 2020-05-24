@@ -1811,4 +1811,34 @@ body {
 		top: 635px;
 		left: 15px;
 	}
+	.item-register {
+		width: 81%;
+		margin-left: 36px;
+	}
+	.form-register button {
+		margin-left: 64px;
+	}
+	.msg-true {
+		max-width: 370px;
+		left: 2px;
+		height: 181px;
+	}
+	.msg-true-close img {
+		width: 63px;
+		height: 63px;
+	}
+	.error-login {
+		max-width: 370px;
+		left: 3px;
+		height: 275px;
+	}
+	.left-error-login-img {
+		float: none;
+		width: 100%;
+	}
+	.right-error-login-text {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 }
