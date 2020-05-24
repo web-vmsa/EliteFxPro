@@ -1752,4 +1752,40 @@ body {
 	.bottom-description p {
 		margin-left: 3px;
 	}
+	.bottom-left-description img {
+		width: 40px;
+		height: 40px;
+		margin-left: 7px;
+	}
+	.bottom-left-img img {
+		height: 207px;
+		margin-top: 65px;
+	}
+	.left-explain {
+		height: 535px;
+	}
+	.right-explain iframe {
+		width: 363px;
+		height: 400px;
+		margin-top: 12px;
+		margin-left: 6px;
+	}
+	.explain {
+		height: 1100px;
+	}
+	.contact-contact {
+		height: 1494px;
+	}
+	.contact-contact-left {
+		height: 340px;
+	}
+	.contact-contact-left img {
+		height: 302px;
+		width: 370px;
+		margin-left: 2px;
+	}
+	.contact-contact-item {
+		width: 75%;
+		float: none;
+	}
 }
