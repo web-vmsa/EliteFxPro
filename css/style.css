@@ -1482,7 +1482,7 @@ body {
 	width: 100px;
 	height: 100px;
 }
-@media only screen and (max-width: 768px) and (min-width: 425px) {
+@media only screen and (max-width: 768px) and (min-width: 375px) {
 	.menu-mobile {
 		display: block;
 		left: 346px;
@@ -1702,5 +1702,54 @@ body {
 	}
 	.rules-deposity {
 		height: 1030px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.menu-mobile {
+		left: 165px;
+	}
+	.item-menumobile {
+		left: 140px;
+	}
+	.homepage {
+		width: 375px;
+	}
+	.homepage img {
+		width: 375px;
+	}
+	.text-apresent {
+		max-width: 375px;
+	}
+	.text-apresent h1 {
+		font-size: 26px;
+		letter-spacing: 26px;
+	}
+	.text-description {
+		max-width: 375px;
+		top: 280px;
+	}
+	.text-link {
+		max-width: 375px;
+		top: 400px;
+	}
+	.img-depoiment img {
+		height: 151px;
+	}
+	.description-depoiment h4 {
+		margin-top: -5px;
+	}
+	.start h2 {
+		font-size: 42px;
+	}
+	.top-description {
+		width: 375px;
+	}
+	.middle-footer img {
+		width: 59px;
+		height: 59px;
+		margin-left: 10px;
+	}
+	.bottom-description p {
+		margin-left: 3px;
 	}
 }
